@@ -1,0 +1,16 @@
+body{
+    background
+}
+canvas {
+    border-width: 2px;
+    border-style:dashed;
+    border-color:aqua;
+    background-color: aqua;
+    animation-name: canvascolor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes canvascolor {
+    from{box-shadow: 1px 1px 40px red;}
+    to{box-shadow:1px 1px 40px blue;}
+}
